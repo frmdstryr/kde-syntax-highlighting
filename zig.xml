@@ -46,6 +46,7 @@
         <item>await</item>
         <item>suspend</item>
         <item>resume</item>
+	<item>noasync</item>
     </list>
     <list name="defines">
         <item>fn</item>
