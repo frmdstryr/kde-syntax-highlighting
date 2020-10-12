@@ -5,7 +5,6 @@
     <list name="flow">
         <item>anyerror</item>
         <item>break</item>
-        <item>cancel</item>
         <item>catch</item>
         <item>continue</item>
         <item>defer</item>
@@ -32,8 +31,6 @@
         <item>packed</item>
         <item>pub</item>
         <item>inline</item>
-        <item>nakedcc</item>
-        <item>stdcallcc</item>
         <item>volatile</item>
     </list>
     <list name="preprocessor">
@@ -59,6 +56,7 @@
         <item>union</item>
     </list>
     <list name="types">
+	<item>anytype</item>
         <item>bool</item>
         <item>c_int</item>
         <item>c_long</item>
@@ -74,7 +72,8 @@
         <item>f32</item>
         <item>f64</item>
         <item>f128</item>
-        <item>i2</item>
+        <item>i1</item>
+	<item>i2</item>
         <item>i3</item>
         <item>i4</item>
         <item>i5</item>
@@ -90,6 +89,7 @@
         <item>noreturn</item>
         <item>promise</item>
         <item>type</item>
+	<item>u1</item>
         <item>u2</item>
         <item>u3</item>
         <item>u4</item>
